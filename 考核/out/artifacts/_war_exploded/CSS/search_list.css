@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+	background-image: url(../Image/webNav.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+} */
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.btnTo1{
+    float: right;
+    background: transparent;
+    border: 0;
+    width: 300px;
+    overflow: hidden;
+    height: 30px;
+}
+
+.btnTo2{
+    float: left;
+    background: transparent;
+    border: 0;
+    width: 300px;
+    overflow: hidden;
+    height: 30px;
+}
+
+
+/* 头部绿色部分 */
+.head {
+    /* background-color: rgb(40, 165, 130); */
+    background-color: rgb(15, 68, 126);
+    height: 40px;
+}
+
+.head .right {
+    line-height: 37px;
+    /* padding-top: 5px; */
+    float: right;
+    padding-right: 10%;
+    color: white;
+}
+
+.head .right input {
+    border: 1px solid white !important;
+    background: none !important;
+    top: 0px !important;
+    padding: 3px 10px !important;
+    border-radius: 5px !important;
+    height: 25px !important;
+}
+
+.head .right button {
+    background: transparent;
+    border: 0;
+    position: relative;
+    right: 30px;
+}
+
+.head .right a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.head .right a:hover {
+    color: gainsboro;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* 头部绿色部分结束 */
+
+
+
+/* 头部白色部分开始 */
+.top {
+    height: 155px;
+    /* background-color: #232323; */
+}
+
+.top .top_bg {
+    box-shadow: 3px 3px 3px grey;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -34px;
+    margin-right: 40px;
+}
+
+.top .top_bg2 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.top .top_nav {
+    float: left;
+    width: 39px;
+    padding-right: 9px;
+    /* display: inline-block; */
+    /* margin-top: -30px !important; */
+    border-right: 1px solid #bfbfbf;
+    /* width: 400px; */
+    margin-top: 35px;
+}
+
+.top .top_p {
+    /* display: inline-block   ; */
+    float: left;
+}
+
+/* .navList {
+    margin-top: 40px;
+    width: 360px;
+} */
+
+.top .top_p ul {
+    margin-top: 30px;
+    margin-left: 48px;
+    list-style: none;
+    color: #1f1f1f;
+    width: 360px;
+}
+
+.top .top_p ul li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    width: 25%;
+}
+
+.top .top_p ul li a {
+    color: #104781;
+    text-decoration: none;
+    outline: none;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.top .top_p ul li a:hover {
+    color: black;
+}
+
+.top .top_p2 ul {
+    margin-top: 30px;
+    margin-left: 48px;
+    list-style: none;
+    color: #1f1f1f;
+    width: 380px;
+}
+
+.top .top_p2 ul li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    width: 25%;
+}
+
+.top .top_p2 ul li a {
+    color: #104781;
+    text-decoration: none;
+    outline: none;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.top .top_p2 ul li a:hover {
+    color: black;
+}
+
+/* 头部白色部分结束 */
+
+
+
+/* 新闻内容展示部分---开始*/
+.main {
+    background-color: rgb(236, 242, 246);
+    padding-top: 40px;
+}
+
+.main .title {
+    height: 62px;
+    color: #0b3c70;
+    margin-bottom: 10px;
+}
+
+.main .title a {
+    outline: none;
+    text-decoration: none;
+    color: #0b3c70;
+}
+
+.main .title a:hover {
+    color: #0b3c70;
+}
+
+.main .news_show_bg {
+    background-color: white;
+    padding: 30px 40px;
+}
+
+.main .news_show_bg .news_title h3 {
+    font-size: 30px;
+    line-height: 49px;
+    padding: 0 0 18px 0;
+    text-align: center;
+    font-weight: normal;
+    color: #0050a5;
+}
+
+.main .news_show_bg .news_body {
+    width: 100%;
+    overflow: hidden;
+    line-height: 28px;
+    font-size: 15px;
+    padding: 25px 0;
+    color: #313131;
+}
+
+.main .news_show_bg .news_body p {
+    text-align: justify;
+    line-height: 1.75em;
+    text-indent: 2em;
+    font-family: 微软雅黑, Microsoft YaHei;
+}
+
+.main .news_show_bg .news_body .img {
+    text-align: center;
+}
+
+.main .group {
+    background-color: white;
+    margin-left: 40px;
+    margin-bottom: 70px;
+}
+
+.main .group .nav {
+    padding: 40px;
+}
+
+.main .group .nav ul {
+    width: auto;
+    overflow: hidden;
+    padding: 0 7px;
+    list-style: none outside none;
+    margin: 0px;
+}
+
+.main .group .nav ul li {
+    border-bottom: 1px solid #d2d2d2;
+    margin: 0 0 15px 0;
+    padding-bottom: 12px;
+}
+
+.dates {
+    float: left;
+    width: 45px;
+}
+
+.dates strong{
+    color: #004ea2;
+    font-family: 'Arial';
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    text-align: right;
+    font-size: 24px;
+}
+
+.dates i {
+    color: #004ea2;
+    font-family: 'Arial';
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    text-align: right;
+}
+
+.main .group .nav ul li a {
+    display: block;
+    margin-left: 62px;
+    line-height: 24px;
+    height: 48px;
+    overflow: hidden;
+}
+/* 新闻内容展示部分---结束*/
+
+
+/* 页脚 */
+.foot {
+    padding-top: 25px;
+    height: 65px;
+    background-color: rgb(12, 63, 118);
+}
+
+.foot .foot_p {
+    line-height: 20px;
+    color: white;
+    display: inline;
+}
+
+/* 结束 */

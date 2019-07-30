@@ -1,0 +1,473 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dis_apper {
+    visibility: hidden;
+}
+
+/* 头部蓝色部分----开始 */
+.head {
+    background-color: rgb(16, 68, 125);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    margin-bottom: 50px;
+    z-index: 9;
+    color: white;
+}
+
+.head .left {
+    float: left;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.head .right {
+    float: right;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+.head .left a,
+.head .right a {
+    color: white;
+    text-decoration: none;
+}
+
+.head .left a:hover,
+.head .right a:hover {
+    color: rgb(205, 205, 205);
+}
+
+/* 头部蓝色部分---结束*/
+
+
+
+/* 头部白色部分---开始 */
+.top {
+    background-color: white;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    margin-top: 40px;
+    /* min-width: 1200px; */
+}
+
+/* .top .margin{
+    padding: 0 10%;
+} */
+/* .container {
+    width: 95% !important;
+} */
+
+.up {
+    display: inline-block;
+    margin-top: -40px;
+    z-index: 999999999999;
+    position: relative;
+}
+
+.img_rounded {
+    border-radius: 50%;
+}
+
+.top .dropbtn {
+    background-color: white;
+    color: rgb(1, 54, 110);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    width: 110px;
+}
+
+.top .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.top .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(30, 30, 200, 0.6);
+    min-width: 110px;
+    width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.top .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.top .dropdown-content a:hover {
+    background-color: rgb(0, 80, 165);
+}
+
+.top .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.top .dropdown:hover .dropbtn {
+    background-color: rgb(0, 80, 165);
+    color: white;
+    height: 60px;
+}
+
+.top .left {
+    float: left;
+    min-width: 500px;
+    /* margin-left: 10%; */
+    /* margin-top: 10px; */
+}
+
+.top .right {
+    float: right;
+    min-width: 500px;
+    /* margin-left: 200px; */
+    /* margin-top: 10px; */
+}
+
+/* 头部白色部分---结束 */
+
+
+
+/* 主要部分---开始 */
+.main {
+    margin-top: 120px;
+    background-color: aquamarine;
+    /* height: 50px; */
+    display: inline-block;
+    width: 100%;
+}
+
+._head {
+    width: 100%;
+}
+
+._head .left {
+    width: 50%;
+    float: left;
+}
+
+._head .right {
+    width: 50%;
+    float: left;
+}
+
+/* 轮播---开始 */
+.slide_img {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.slide_img .hid_den {
+    display: none;
+}
+
+/* 轮播---结束 */
+
+
+/* 校园新闻---开始 */
+.main .news {
+    background-color: rgb(204, 225, 250);
+}
+
+.main .news .title {
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.news_groups {
+    /* text-align: center; */
+    margin-top: 35px;
+}
+
+.new_bg {
+    background-color: white;
+    width: 280px;
+    /* margin: 0 5px; */
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+    height: 430px;
+}
+
+.news_overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 405px;
+}
+
+.news_h3 {
+    padding: 25px 10px 0 10px;
+    font-size: 18px;
+    /* display: block; */
+    color: rgb(2, 68, 149);
+    line-height: 24px;
+}
+
+.news_p {
+    padding: 0 10px 10px 10px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.news_margin {
+    /* margin-top: 10px; */
+    padding-top: 40px;
+}
+
+/* 校园新闻---结束 */
+
+
+/* 通知公告---开始 */
+.notice {
+    background-color: rgb(234, 238, 245);
+}
+
+.notice_color1 {
+    background-color: rgb(226, 239, 255);
+}
+
+.notice_color2 {
+    background-color: rgb(255, 255, 255);
+}
+
+.notice_padding {
+    padding: 15px;
+}
+
+.main .notice .title {
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.notice_margin {
+    /* margin-top: 10px; */
+    padding-top: 40px;
+    /* padding-bottom: 20px; */
+}
+
+.notice_h3 {
+    color: #00a4df;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.notice_p {
+    font-size: 12px;
+    line-height: 20px;
+    overflow: hidden;
+    height: 90px;
+    padding-top: 13px;
+}
+
+/* 通知公告---结束 */
+
+
+/* 六个图标部分---开始 */
+.main .more {
+    background-color: rgb(204, 225, 250);
+}
+
+.more_strong {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.more_margin {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.more_padding {
+    /* margin: 10px; */
+    padding: 10px;
+    display: inline;
+}
+
+.more_p {
+    font-size: 14px;
+    max-height: 175px;
+    overflow: hidden;
+    line-height: 25px;
+}
+
+.more_first {
+    overflow: hidden;
+    border-left: 1px solid #acacac;
+    border-right: 1px solid #acacac;
+
+
+    padding: 25px 50px 15px 80px;
+    min-height: 180px;
+    /* float: left; */
+}
+
+/* 六个图标部分---结束 */
+
+
+
+
+/* 页脚---开始 */
+.root {
+    background-color: rgb(17, 73, 132);
+    /* display: inline-block; */
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+}
+
+.root_margin {
+    padding-top: 20px;
+}
+
+
+
+
+/* li {
+    width: 100px;
+    height: 30px;
+    border: 1px solid red;
+    list-style: none;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+}
+
+#nav>li {
+    position: relative;
+}
+
+#nav>li>ul.level1 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+#nav>li>ul.level1>li>ul.level2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+#nav>li>ul.level1 {
+    display: none;
+}
+
+#nav>li>ul.level1>li>ul.level2 {
+    display: none;
+}
+
+#nav>li:hover>ul.level1 {
+    display: block;
+}
+
+#nav>li>ul.level1>li:hover>ul.level2 {
+    display: block;
+} */
+
+.btn {
+    background: transparent;
+}
+
+.dropbtn2 {
+    /* background-color: rgb(30, 30, 200, 0.6); */
+    background: transparent;
+    color: white;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    /* font-weight: bold; */
+    /* transition: all 0.3s ease; */
+    width: 110px;
+}
+
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    border: none;
+    left: -16px;
+}
+
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    /* position: relative; */
+    left: 110px;
+    top: -12px;
+    background-color: rgb(30, 30, 200, 0.6);
+    min-width: 110px;
+    width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.dropdown-content p {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content p:hover {
+    background-color: rgb(0, 80, 165);
+}
+
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+
+.dropdown2:hover .dropbtn2 {
+    background-color: rgb(0, 80, 165);
+    color: white;
+    /* height: 60px; */
+}
+
+.modal_a {
+    color: white;
+    list-style: none;
+}
+
+.modal_a:hover {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+/* 回到顶部 */
+.goToTop {
+    opacity: 0.5;
+    position: fixed;
+    right: 5px;
+    bottom: 0;
+    z-index: 105;
+    cursor: pointer;
+}

@@ -1,0 +1,109 @@
+h1{
+    text-align:center;
+}
+hr{
+    width:95%;
+    margin:0 auto;
+}
+body{
+
+}
+.userInfo{
+    width:40%;
+    height:440px;
+    border:1px solid;
+    margin:20px auto;
+    border-radius:15px;
+    background-color:rgba(255, 255, 255, 0.6);
+}
+table{
+    width:90%;
+    height:220px;
+    text-align:center;
+    margin:30px auto;
+}
+td{
+    width:70px;
+}
+.img{
+    border:1px solid;
+    width:120px;
+    height:120px;
+    margin:0 auto;
+}
+.changeimg1{
+    width:90px;
+    height:30px;
+    border-radius:8px;
+    margin:20px auto;
+}
+.changeimg{
+    border:1px solid;
+    width:90px;
+    height:30px;
+    font-size:14px;
+    border-radius:8px;
+    border:1px solid;
+    margin:20px auto;
+}
+.btn{
+    width:380px;
+    height:35px;
+    margin:20px auto;
+}
+.btn .change{
+    width:100px;
+    height:35px;
+    font-size:16px;
+    float:left;
+    border-radius:8px;
+    border:1px solid;
+}
+.btn .changep{
+    width:100px;
+    height:35px;
+    font-size:16px;
+    float:left;
+    border-radius:8px;
+    margin-left:40px;
+    border:1px solid;
+}
+.btn .out{
+    width:100px;
+    height:35px;
+    font-size:16px;
+    float:right;
+    border-radius:8px;
+    border:1px solid;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 178px;
+    line-height: 178px;
+    text-align: center;
+}
+
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}

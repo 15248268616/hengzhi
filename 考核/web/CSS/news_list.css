@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hid_den {
+    display: none;
+}
+
+/* .hid_den.active {
+    display: block;
+} */
+
+/* 头部蓝色部分 */
+.head {
+    background-color: rgb(15, 68, 126);
+    height: 40px;
+}
+
+.head .right {
+    line-height: 37px;
+    /* padding-top: 5px; */
+    float: right;
+    padding-right: 10%;
+    color: white;
+}
+
+
+
+.head .right form{
+    display: inline;
+}
+
+.head .right form .input {
+    border: 1px solid white !important;
+    background: none !important;
+    top: 0px !important;
+    padding: 3px 10px !important;
+    border-radius: 5px !important;
+    height: 25px !important;
+}
+
+.head .right form .button {
+    background: transparent;
+    border: 0;
+    position: relative;
+    right: 30px;
+    width: 30px;
+    z-index: 3 ;
+}
+.head .right form span{
+    position: relative;
+    right: 55px;
+    z-index: 2;
+}
+.head .right a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.head .right a:hover {
+    color: gainsboro;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* 头部蓝色部分结束 */
+
+
+
+/* 头部白色部分开始 */
+.top {
+    height: 155px;
+    /* background-color: #232323; */
+}
+
+.top .top_bg {
+    box-shadow: 3px 3px 3px grey;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -34px;
+    margin-right: 40px;
+}
+
+.top .top_bg2 {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.top .top_nav {
+    float: left;
+    width: 39px;
+    padding-right: 9px;
+    /* display: inline-block; */
+    /* margin-top: -30px !important; */
+    border-right: 1px solid #bfbfbf;
+    /* width: 400px; */
+    margin-top: 35px;
+}
+
+.top .top_p {
+    /* display: inline-block   ; */
+    float: left;
+}
+
+/* .navList {
+    margin-top: 40px;
+    width: 360px;
+} */
+
+.top .top_p ul {
+    margin-top: 30px;
+    margin-left: 48px;
+    list-style: none;
+    color: #1f1f1f;
+    width: 360px;
+}
+
+.top .top_p ul li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    width: 25%;
+}
+
+.top .top_p ul li a {
+    color: #104781;
+    text-decoration: none;
+    outline: none;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.top .top_p ul li a:hover {
+    color: black;
+}
+
+.top .top_p2 ul {
+    margin-top: 30px;
+    margin-left: 48px;
+    list-style: none;
+    color: #1f1f1f;
+    width: 380px;
+}
+
+.top .top_p2 ul li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    width: 25%;
+}
+
+.top .top_p2 ul li a {
+    color: #104781;
+    text-decoration: none;
+    outline: none;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.top .top_p2 ul li a:hover {
+    color: black;
+}
+
+/* 头部白色部分结束 */
+
+
+/* 中间主要部分---开始 */
+.main {
+    background-color: rgb(236, 242, 246);
+    padding-top: 40px;
+}
+
+.main .title {
+    height: 62px;
+    color: #0b3c70;
+    margin-bottom: 30px;
+}
+
+.main .title h1 {
+    display: inline-block;
+    margin-right: 20px;
+    width: 200px;
+    font-weight: bold;
+}
+
+.main .title a {
+    outline: none;
+    text-decoration: none;
+    color: #0b3c70;
+    /* font-weight: bold; */
+    /* display: inline; */
+}
+
+.main .title a:hover {
+    color: #0b3c70;
+}
+
+.main .main_news {
+    list-style: none;
+}
+
+.main .main_news ul,
+.main .main_news ol {
+    list-style: none;
+}
+
+.main .main_news ul li {
+    width: 100%;
+    margin-right: 0;
+    float: left;
+    margin-bottom: 8px;
+    padding: 25px 0;
+    align-items: baseline;
+    border-bottom: 1px solid #e0e0e2;
+}
+
+.main .main_news ul li .time {
+    width: 74px;
+    padding-right: 20px;
+    margin-right: 22px;
+    text-align: right;
+    border-right: 1px solid #0b3c70;
+    box-sizing: content-box;
+    float: left;
+    margin-top: 20px;
+}
+
+.main .main_news ul li .time h3 {
+    font-size: 14px;
+    color: #999;
+    line-height: 22px;
+}
+
+.main .main_news ul li .time p {
+    font-size: 28px;
+    color: #0b3c70;
+    line-height: 36px;
+}
+
+.m-list-flex .m-cell-bd {
+    overflow: hidden;
+    width: 1000px;
+    float: left;
+    height: 150px;
+}
+
+.main .main_news ul li .cont h3 {
+    font-size: 20px;
+}
+
+.single-line {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.main .main_news ul li .cont h3 a {
+    color: #48494b;
+}
+
+.main .main_news ul li .cont p {
+    height: auto;
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.multi-line {
+    min-height: 2em;
+    text-overflow: clip;
+}
+
+
+/* 分页按钮 */
+.paging {
+    text-align: center;
+}
+
+ul.page {
+    display: inline-block;
+    padding: 0;
+    margin: 50px auto;
+    /* width: 400px; */
+    text-align: center;
+}
+
+ul.page li {
+    display: inline;
+
+}
+
+ul.page li button {
+    background: transparent;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(60, 60, 62);
+    color: white;
+    transition: background-color 0.5s;
+}
+
+ul.page li button:hover {
+    background-color: grey;
+}
+
+.pagingInput {
+    border: 1px solid white !important;
+    background: none !important;
+    /* top: 0px !important; */
+    padding: 3px 10px !important;
+    border-radius: 5px !important;
+    height: 25px !important;
+    width: 30px;
+}
+
+/* 中间主要部分---结束 */
+
+
+/* 页脚 */
+.foot {
+    padding-top: 25px;
+    height: 65px;
+    background-color: rgb(12, 63, 118);
+}
+
+.foot .foot_p {
+    line-height: 20px;
+    color: white;
+    display: inline;
+}
+
+/* 结束 */
+
+
+
+
+
+/* 回到顶部 */
+.goToTop {
+    opacity: 0.5;
+    position: fixed;
+    right: 5px;
+    bottom: 0;
+    z-index: 105;
+    cursor: pointer;
+}
